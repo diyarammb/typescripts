@@ -1,10 +1,10 @@
-const arr: number[] = [1, 2, 4, 5, 9, 8, 7, 3];
-const n: number = arr.length;
+const Revarr: number[] = [1, 2, 4, 5, 9, 8, 7, 3];
+const N: number = Revarr.length;
 
-for (let i: number = 0; i < n / 2; i++) {
-  let temp: number = arr[i];
-  arr[i] = arr[n - 1 - i];
-  arr[n - 1 - i] = temp;
+for (let i: number = 0; i < N / 2; i++) {
+  let temp: number = Revarr[i];
+  Revarr[i] = Revarr[N - 1 - i];
+  Revarr[N - 1 - i] = temp;
 }
 
-console.log(arr);
+console.log(Revarr);
